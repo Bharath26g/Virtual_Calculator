@@ -1,0 +1,32 @@
+Level 0 Data Flow Diagram - Hand Calculator
+===========================================
+
+[User Hand Gestures] ----→ |                              | ----→ [Display Mathematical Expression]
+                          |                              |
+[Webcam Input] --------→  |    Hand Calculator         | ----→ [Display Calculation Result]
+                          |      System                 |
+[Operator Selection] --→   |                              | ----→ [Display Gesture Status]
+                          |                              |
+                          ============================
+
+External Entities:
+- User (providing hand gestures)
+- Webcam (capturing video input)
+
+Processes:
+- Hand Calculator System (Core Process)
+
+Data Flows:
+Input Flows:
+- Hand gestures for numbers (0-9)
+- Real-time video feed
+- Operator selection gestures (+, -, *, /, =, C)
+
+Output Flows:
+- Current mathematical expression
+- Calculation results
+- Gesture recognition status
+- Visual feedback in ROI boxes
+
+Note: This is a text representation of the DFD. For actual presentation purposes, 
+you should create this diagram using proper DFD tools or presentation software. 
